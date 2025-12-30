@@ -49,10 +49,28 @@ const users = [
 ]
 
 users[1].email  
-console.log(tinderUser)
+/* console.log(tinderUser)
 
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedOut'))
+console.log(tinderUser.hasOwnProperty('isLoggedOut')) */
+
+
+const course = {
+    courseName: "Learn java",
+    coursePrice: 999,
+    courseInstructor: "irfan"
+}
+
+//console.log(course["courseInstructor"]);
+
+const {courseName: cName}  = course
+console.log(cName);
+
+//-----------------------------------------
+
+
+
+
